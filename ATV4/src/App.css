@@ -1,0 +1,66 @@
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #34495e;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #bdc3c7;
+}
+
+br {
+    margin-bottom: 10px;
+}
+
+/* Estilo do FirstComponent */
+h1 span {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Estilo do SecondComponent */
+h2 span {
+    color: #27ae60;
+    font-weight: bold;
+}
